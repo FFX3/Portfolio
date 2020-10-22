@@ -12,18 +12,26 @@
             <a href="Portfolio.html">Portfolio</a>
             <a href="Contact.html">Contact Me</a>
         </nav>
-        <h1>Contact Me</h1>
     </header>
     <main id="mainContact_MePage">
-        <form id="emailForm">
-            <label for="emailInput">Email: </label>
-            <input id="emailInput" type="email" required><br>
-            <label for="subjectInput">Subject: </label>
-            <input id="subjectInput" type="text" required><br>
-            <label for="contentInput">Content: </label>
-            <textarea form="emailForm" id="contentInput"></textarea><br>
-            <input type="submit">
-        </form>
+        <h1>Contact Me</h1>
+        <div class="form">
+            <form id="emailForm">
+                <div>
+                    <label for="emailInput">Email: </label>
+                    <input id="emailInput" type="email" required>
+                </div>
+                <div>
+                    <label for="subjectInput">Subject: </label>
+                    <input id="subjectInput" type="text" required>
+                </div>
+                <div>
+                    <label for="contentInput">Content: </label>
+                    <textarea form="emailForm" id="contentInput"></textarea>
+                </div>
+            </form>
+            <button form="emailForm" value="submit">Submit</button>
+        </div>
     </main>
     <footer>
         <nav id="footerNav">
